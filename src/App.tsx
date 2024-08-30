@@ -6,6 +6,7 @@ function App() {
 
     return (
         <div className="App">
+            <p>Test deploy</p>
             <h1>Telegram Mini App</h1>
             <p>Счетчик: {count}</p>
             <button onClick={() => setCount(count + 1)}>Увеличить</button>
